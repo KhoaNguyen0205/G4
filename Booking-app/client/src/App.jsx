@@ -24,7 +24,7 @@ import DetailsPlacePage from './Admin/DetailsPlacePage'
 import ClientPage from './pages/ClientPage'
 import AppRovePage from './Admin/AppRovePage'
 
-axios.defaults.baseURL='https://g4-api-be.vercel.app/'
+axios.defaults.baseURL='http://localhost:4000/'
 axios.defaults.withCredentials = true; 
 
 function App() {
