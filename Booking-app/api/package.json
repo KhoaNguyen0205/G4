@@ -1,4 +1,13 @@
 {
+    "builds": [
+      { "src": "*.js", 
+      "use": "@vercel/node" }
+    ],
+        "routes": [
+          { "src": "(/.*)",
+           "dest": "/" }
+        ],
+  
   "name": "api",
   "version": "1.0.0",
   "main": "index.js",
@@ -17,3 +26,4 @@
     "nodemon": "^2.0.21"
   }
 }
+
